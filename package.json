@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "mindgames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireghost1812/frontend-project-lvl1.git"
+  },
+  "author": "fireghost1812",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireghost1812/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/fireghost1812/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
