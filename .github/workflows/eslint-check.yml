@@ -1,9 +1,8 @@
 name: eslint-check
 on: push
 jobs:
-  my-job:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - name: check
-      - run: make install
-      - run: make lint
+        run: make lint
